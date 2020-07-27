@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TYNetworking_Example' do
+  pod 'TYNetworking', :path => '../'
+
+  target 'TYNetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
